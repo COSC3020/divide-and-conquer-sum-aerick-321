@@ -2,6 +2,10 @@ function sum(x, hi, low,){
     if (low === hi) {
         return x[low];
     }
+
+    if (low > hi) {
+        return 0;
+    }
     var mid1 = Math.floor((low+hi)/3);
     var mid2 = Math.floor(2 *(low+hi)/3);
 
