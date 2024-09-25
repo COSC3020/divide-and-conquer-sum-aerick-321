@@ -22,6 +22,10 @@ that does the actual recursion.
 What is the runtime of the algorithm that you implemented? Provide a recurrence
 relation for $T(n)$ as we did for merge sort (you can ignore constant factors)
 and solve it as we did in the lectures. Give the final $\Theta$ complexity.
+$T(n)= { 1 if n/leq 1}
+{
+       
+
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
