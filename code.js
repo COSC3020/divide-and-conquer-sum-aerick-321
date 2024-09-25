@@ -3,8 +3,8 @@ function sum(x, hi, low,){
         return x[low];
     }
 
-    var mid1 = Math.floor((low+hi)/3);
-    var mid2 = Math.floor(2 *(low+hi)/3);
+    var mid1 = low-(Math.floor((low+hi)/3));
+    var mid2 = low- (Math.floor(2 *(low+hi)/3));
 
     var lowSum = sum(x, low, mid1);
     var midSum= sum(x, mid1 + 1, mid2);
