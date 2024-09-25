@@ -32,11 +32,12 @@ $=3^{log3n} T(n/3^{log3n}) +{log3n} *n$
 
 =n*1 + log3n *n
 
-$=\Theta$ (nlog2n)
+$=\Theta$ (nlogn)
        
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+Instead of being split into 2 like merge sort it is split into 3, so in the equation you replace the 2's with 3's and solve then you get $=\Theta$ (nlogn) because log3n eventually simplifies to logn. It doesn't change the time overall.
 
 
 Looked at merge sort code for an outline. Got help from the Professor to subtract the low. Wrote the code in the sum fucntion and use chat GPT for help with the code in the divide and conquor function. Chat GPT also helped me realize I needed to change variable names for it to work.
