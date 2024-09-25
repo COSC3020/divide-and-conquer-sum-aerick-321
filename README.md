@@ -22,8 +22,8 @@ that does the actual recursion.
 What is the runtime of the algorithm that you implemented? Provide a recurrence
 relation for $T(n)$ as we did for merge sort (you can ignore constant factors)
 and solve it as we did in the lectures. Give the final $\Theta$ complexity.
-$T(n)= { 1 if n/leq 1}
-{
+$T(n)= { 1 if n\leq 1}
+{3T (n/3) + n  n > 1$
        
 
 
