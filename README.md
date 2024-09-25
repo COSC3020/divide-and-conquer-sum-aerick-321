@@ -28,5 +28,5 @@ most important part. Add your answer to this markdown file.
 
 
 
-Looked at merge sort code for an outline
+Looked at merge sort code for an outline. Got help from the Professor to subtract the low. Wrote the code in the sum fucntion and use chat GPT for help with the code in the divide and conquor function.
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
