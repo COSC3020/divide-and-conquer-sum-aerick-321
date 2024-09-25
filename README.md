@@ -27,7 +27,7 @@ T(n)= { 1 if $n\leq 1$}
 
 $=3^i T(n/3^i) +in$
 
-$T(n/3^log3n) = 1$
+$T(n/3^l^o^g^3^n) = 1$
        
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
