@@ -42,7 +42,7 @@ T(n)= $log3n ∈ \Theta$ (nlogn)
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
-The array is split evenly into 3. 
+The array is split evenly into 3. Then each recursiveley split until you get to the base case. Is similar to merge sort but divided into 3 instead of 2. Which means the array has to be greater that 2 or it becomes T(1)=1
 Instead of being split into 2 like merge sort it is split into 3, so in the equation you replace the 2's with 3's and solve then you get $=\Theta$ (nlogn) because log3n eventually simplifies to logn. It doesn't change the time overall.
 
 
