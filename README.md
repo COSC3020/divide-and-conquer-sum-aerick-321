@@ -22,21 +22,27 @@ that does the actual recursion.
 What is the runtime of the algorithm that you implemented? Provide a recurrence
 relation for $T(n)$ as we did for merge sort (you can ignore constant factors)
 and solve it as we did in the lectures. Give the final $\Theta$ complexity.
-T(n)= { 1 if $n\leq 1$}
-{3T(n/3) + n n > 1}
+
+T(n)= { 1 if $n\leq 2$}
+
+Get to the base case --> T(n) = {3T(n/3) + n n > 2}
 
 $=3^i T(n/3^i) +in$
 
 $T(n/3^{log3n}) = 1$
+
+i = log3n
+
 $=3^{log3n} T(n/3^{log3n}) +{log3n} *n$
 
 =n*1 + log3n *n
 
-$=\Theta$ (nlogn)
+T(n)= $log3n ∈ \Theta$ (nlogn)
        
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+The array is split evenly into 3. 
 Instead of being split into 2 like merge sort it is split into 3, so in the equation you replace the 2's with 3's and solve then you get $=\Theta$ (nlogn) because log3n eventually simplifies to logn. It doesn't change the time overall.
 
 
