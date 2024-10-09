@@ -25,19 +25,25 @@ and solve it as we did in the lectures. Give the final $\Theta$ complexity.
 
 T(n)= { 1 if $n\leq 2$}
 
-Get to the base case --> T(n) = {3T(n/3) + O(1)}
+Get to the base case --> T(n) = {3T(n/3) + O(1)},  T(1) = O(1)
 
-$=3^i T(n/3^i) +O(1)
+$T(n) = 3(3T (n/9) +O(1)) +O(1)$
 
-$T(n/3^{log3n}) = 1$
+$T(n) = 9T(n/9) +3*O(1)) +O(1)$
+
+$T(n) = 9(3T (n/27) +O(1)) +3*O(1)+O(1)$
+
+$T(n) = 27T(n/27) + 9*O(1)+ +3*O(1)) +O(1)$
+
+$T(n) =3^i T(n/3^i)+ (3^{i-1} +3^{i-2} +...+ 3+1)*O(1)$
+
+$n/3^i$ = 1
 
 i = log3n
+​
+$(3^i -1)/(3-1) = (3^{log3n}-1)/2 = n-1/2$
 
-$=3^{log3n} T(n/3^{log3n}) +{log3n} *n$
-
-=n*1 + log3n *n
-
-T(n)= $log3n ∈ \Theta$ (nlogn)
+T(n) = O(n) +O(n) = O(n)
        
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
