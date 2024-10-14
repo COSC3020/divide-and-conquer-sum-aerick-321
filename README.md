@@ -45,7 +45,8 @@ T(1) = x, x is a constant
 
 $T(n) =3^{log3n} * x + (3^{log3n-1} +3^{log3n-2} +...+ 3+1)*c$
 
-T(n) = n*d + ((n-1)*c)/2 = O(n)
+T(n) = n*d + ((n-1)*c)/2 falls under O(n) the growth rate is linear relative to n
+T(n) ∈ O(n)
        
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
@@ -54,5 +55,5 @@ The array is split roughly even into 3. Then each recursiveley split until you g
 Instead of being split into 2 like merge sort it is split into 3, so in the equation you replace the 2's with 3's and solve to get a final asymptotic complexity of O(n)
 
 
-Looked at merge sort code for an outline. Got help from the Professor to subtract the low. Wrote the code in the sum fucntion and use chat GPT for help with the code in the divide and conquor function. Chat GPT also helped me realize I needed to change variable names for it to work.
+Looked at merge sort code for an outline. Got help from the Professor to subtract the low. Wrote the code in the sum function and use chat GPT for help with the code in the divide and conquor function. Chat GPT also helped me realize I needed to change variable names for it to work. Used ChatGPT to help explain the recurence relation reasoning.
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
